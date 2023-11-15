@@ -12,8 +12,36 @@ html{
 
 * {
     font-family: 'Montserrat', sans-serif;
+    outline: none;
 }
 
+
+#nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+
+#nav a:hover {
+    color: #dddddd;
+}
+
+.Home, .Blog, .KnowUs, .Services {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.colum2 a {
+    color: #ffffff; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.colum2 a:hover {
+    color: #dddddd;
+}
 
 /*HEADER*/
 
@@ -74,9 +102,7 @@ header{
 nav ul li a:hover{
     position: static;
     border: 0px solid #6A5DC4;
-    color: black;
     text-decoration: none;
-    background:#000000;
     margin: 5px;
 }
 
@@ -162,6 +188,7 @@ nav ul li a:hover{
     margin-top: 40px;
     line-height: 25px;
 }
+
 
 .container__cover .text input{
     padding: 20px;
